@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TB_LIBROS" directorySegmentName="seg_0" id="EEB65264-5FFD-061C-6CA8-4C544FA9FB51">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E6F83CAE-8205-1BA6-0E54-BBCC3D54A5BF</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="AUTOR" id="13497F13-52AE-EB26-5CA2-A45FDAF2AB01">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TITULO" id="A4641054-8110-9A99-EF40-26A15B106451">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGOEDITORIAL" id="A6B57F77-DC06-1214-04B8-FFD2712400A4">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIO" id="E6B21C89-4B63-2F8B-7C56-602EB6B709C0">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CODIGO" id="EAFD323D-C60D-6F6D-110E-0487EC70C033">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ACODIGOED" id="B9062BF3-1825-69F7-4ED2-70202AEA0F31">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TB_LIBROS_PK" id="E644DE96-D43E-3AE8-6DAC-BDDCF18440BB">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<indexSegment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

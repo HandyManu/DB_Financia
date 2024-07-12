@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TBUSUARIOS" directorySegmentName="seg_0" id="9428CDBD-7065-E69A-45E0-7EC3FD8ECA1E">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E6F83CAE-8205-1BA6-0E54-BBCC3D54A5BF</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HUELLAUSUARIO" id="22235673-D8D4-4156-1094-2E0AF4735028">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREOUSUARIO" id="8ADA56C6-5A1E-BD74-4DE6-AC57952F3164">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TIPOUSUARIO" id="9A58D106-8192-37CE-9C18-FA7540A61DBC">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBREUSUARIO" id="A7A6E512-2880-EBE0-5B06-1EC016C6925E">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UUID_USUARIO" id="C00EB39B-6521-ED32-2D3B-1102DE43B9A4">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTRASENAUSUARIO" id="E91E85A5-75B0-2B65-CDAA-6BF98AFBEA6A">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UNIQ_CORREOUSUARIO" id="E5104393-E1D4-F0A7-9952-0D83808380F3">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UUID_TIPOUSUARIO" id="E09AF358-143E-365E-08E3-73AF0B399529">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBUSUARIOS_PK" id="A27EE4E9-9EC0-44C0-F776-95755A9F2E04">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<indexSegment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UNIQ_CORREOUSUARIO" id="6E8BFED7-888C-4B8D-9D58-45ECDAC238E8">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<segment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<existingIndex>E5104393-E1D4-F0A7-9952-0D83808380F3</existingIndex>
+<indexSegment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="TBUSUARIOS_NOMBREUSUARIO_UN" id="7FE76AC1-A7A1-CB77-2D02-7ADA2DFBD094">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<indexSegment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="TBUSUARIOS_HUELLAUSUARIO_UN" id="D3F0AC13-89FC-F30B-6503-20DA056F44E0">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<indexSegment>C55CFE6B-ECF5-F10D-B479-CC488E48CF17</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TBAHORROS" directorySegmentName="seg_0" id="AF9CB3B2-D44F-A4A6-44BD-5EA3D93B945B">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1EA4C236-A1CD-60F5-B2B9-E666A8DE2F07</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UUID_AHORRO" id="7733E35B-9F08-C940-EC92-970C06D88290">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTOAHORRO" id="91999665-BE92-A9FC-40CF-F26E3FB30A6F">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UUID_USUARIO" id="A64BF3EF-5093-B56C-DD6A-5211F75C1E89">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAAHORRO" id="EBBB08D4-6BB4-DBD1-EDE0-8E2EDBB01E92">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UUID_USUARIO_2" id="CCB03B70-18EB-7E28-FC92-1DFC95BBC1D7">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBAHORROS_PK" id="105A35C1-ED39-CD1A-730D-1FE65A765BE9">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>B5AF852E-B7F5-5E09-3790-342E0E513436</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<indexSegment>B5AF852E-B7F5-5E09-3790-342E0E513436</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

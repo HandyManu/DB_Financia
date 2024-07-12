@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="679D856E-59BB-6CA0-9D9F-DF91260FA15B" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBGASTOS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBGASTOS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UUID_GASTO" id="6426778A-E893-84A8-809C-ABFEB65787E6">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBGASTOS</sourceObjSchema>
+<sourceObjName>UUID_GASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UUID_USUARIO" id="83AC8179-65C3-9624-CC3A-6FB593536DB3">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBGASTOS</sourceObjSchema>
+<sourceObjName>UUID_USUARIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25C30483-9CE4-0228-3884-7FC3E10AFDEA" referredColumn="C00EB39B-6521-ED32-2D3B-1102DE43B9A4"/>
+</associations>
+</Column>
+<Column name="ID_TIPOGASTOINGRESO" id="8C01AE94-74A4-F4D1-8F3C-1D30C9743109">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBGASTOS</sourceObjSchema>
+<sourceObjName>ID_TIPOGASTOINGRESO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E7C72F2-BC6F-2EF0-D937-84106E4B827E" referredColumn="F9A9F912-382F-93E0-DC5D-C691B84347AC"/>
+</associations>
+</Column>
+<Column name="UUID_CLASIFICACIONES" id="14C55EC6-A21F-0056-B15F-E15F83FDD571">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBGASTOS</sourceObjSchema>
+<sourceObjName>UUID_CLASIFICACIONES</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F587790A-EF7A-FA25-60E0-EB8322A7F8EB" referredColumn="D32302F3-A88C-3B48-0B8B-3FBCBA765DD3"/>
+</associations>
+</Column>
+<Column name="UUID_FUENTEGASTO" id="AF9E3E7B-2978-978F-62B8-D8313C2CDB56">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBGASTOS</sourceObjSchema>
+<sourceObjName>UUID_FUENTEGASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6F3BCBD-DCD4-F877-50BA-D4A55369B49B" referredColumn="99965BA6-9C32-6D63-21F8-4C2B6C2B1037"/>
+</associations>
+</Column>
+<Column name="MONTOGASTO" id="826090B3-98AB-8944-ABA8-07A1319D0E46">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBGASTOS</sourceObjSchema>
+<sourceObjName>MONTOGASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<constraintName>CHK_MONTOGASTO_NON_NEGATIVE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="montoGasto &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="montoGasto &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAGASTO" id="CD76B249-A7F6-8DC7-0C00-1C821EC48034">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBGASTOS</sourceObjSchema>
+<sourceObjName>FECHAGASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7F066990-445C-F51D-832A-1CD43ED8B420" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBGASTOS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008826</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6426778A-E893-84A8-809C-ABFEB65787E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="99422F99-0035-D080-DF4A-995B6619D1A3" name="FK_ID_TIPOGASTOINGRESO">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8C01AE94-74A4-F4D1-8F3C-1D30C9743109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B4C4BCE4-F837-5046-ECD4-F27BCED9D115" name="FK_UUID_CLASIFICACION">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14C55EC6-A21F-0056-B15F-E15F83FDD571"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E292CA17-D0E8-9F7C-979F-4521F4CE7131" name="FK_UUID_FUENTEGASTO">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF9E3E7B-2978-978F-62B8-D8313C2CDB56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F716623F-7BE1-B623-F2AC-CCE65F013454" name="FK_UUID_USUARIO">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83AC8179-65C3-9624-CC3A-6FB593536DB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

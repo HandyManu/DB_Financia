@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A99B453-700E-F4D3-BB97-FCB8486EA7FC" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBCLASIFICACIONES">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBCLASIFICACIONES</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UUID_CLASIFICACIONES" id="D32302F3-A88C-3B48-0B8B-3FBCBA765DD3">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBCLASIFICACIONES</sourceObjSchema>
+<sourceObjName>UUID_CLASIFICACIONES</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UUID_USUARIO" id="B0102D51-DB63-5AE6-A346-52C8BA674842">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBCLASIFICACIONES</sourceObjSchema>
+<sourceObjName>UUID_USUARIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6C65653-0111-23AF-7D3F-DF50EE6429C5" referredColumn="C00EB39B-6521-ED32-2D3B-1102DE43B9A4"/>
+</associations>
+</Column>
+<Column name="ID_TIPOCLASIFICACION" id="0645FE62-1F46-58DB-ABCB-B0DA59549AC3">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBCLASIFICACIONES</sourceObjSchema>
+<sourceObjName>ID_TIPOCLASIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B21B098F-405A-7204-5388-62E2D7168901" referredColumn="7B512A8B-3258-301C-895B-BF8464BC39FF"/>
+</associations>
+</Column>
+<Column name="NOMBRECLASIFICACION" id="13AE6B4F-A2DD-D437-922E-656BF4B644E2">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBCLASIFICACIONES</sourceObjSchema>
+<sourceObjName>NOMBRECLASIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83E49E04-C297-BBA3-0283-5E386F0F9097" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBCLASIFICACIONES_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008808</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D32302F3-A88C-3B48-0B8B-3FBCBA765DD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2598059F-D492-B12C-AAB4-22A0923B075D" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBCLASIFICACIONES_NOMBRECLASIFICACION_UN">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008809</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13AE6B4F-A2DD-D437-922E-656BF4B644E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2575C58-0929-88E2-A0BD-B8C643C851BB" name="FK_UUID_TIPOCLASIFICACION">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0645FE62-1F46-58DB-ABCB-B0DA59549AC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88283A91-0D5F-33E3-89B0-5A4B825D4B2C" name="FK_UUID_USUARIOS">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0102D51-DB63-5AE6-A346-52C8BA674842"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

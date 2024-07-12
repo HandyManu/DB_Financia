@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="02D0C315-32F9-311D-0621-A7863E8D0B34" containerWithKeyObject="56072EA0-D729-FF7F-AC57-AE12F6B977E6" localFKIndex="C6BC11B8-F064-FF5E-EE7B-9E98DD2E1100" name="FK_ID_TIPOGASTOINGRESO1">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>FK_ID_TIPOGASTOINGRESO1</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<referredTableLongName>MANUEL_DEVELOPER.TBTIPOGASTOINGRESO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F41CA2A5-ECD4-DB13-788E-40C89E731C5E</referredTableID>
+<keyObject>6B39CBC6-183E-F5A8-00A3-15B935FC9144</keyObject>
+<referredKeyID>6B39CBC6-183E-F5A8-00A3-15B935FC9144</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPOGASTOINGRESO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

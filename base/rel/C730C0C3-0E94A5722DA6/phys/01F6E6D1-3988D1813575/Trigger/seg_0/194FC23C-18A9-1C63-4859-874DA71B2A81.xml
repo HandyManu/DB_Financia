@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TR_INGRESO_OFERTAS" directorySegmentName="seg_0" id="194FC23C-18A9-1C63-4859-874DA71B2A81">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TR_INGRESO_OFERTAS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+if (:new.Precio <= 30)then 
+INSERT INTO TB_Ofertas (Precio,Usuario,Fecha)values(:new.Precio,USER,sysdate);
+END IF;
+end TR_INGRESO_Ofertas;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0DB05F87-F3D9-8AA8-C66A-7ECFD75C21C3</owner>
+<table>EEB65264-5FFD-061C-6CA8-4C544FA9FB51</table>
+</TriggerOraclev10g>

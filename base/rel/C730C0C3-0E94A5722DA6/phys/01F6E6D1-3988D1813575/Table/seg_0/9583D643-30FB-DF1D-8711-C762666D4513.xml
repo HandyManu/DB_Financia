@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TBNOTIFICACIONES" directorySegmentName="seg_0" id="9583D643-30FB-DF1D-8711-C762666D4513">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1EA4C236-A1CD-60F5-B2B9-E666A8DE2F07</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HORANOTIFICACION" id="00757E89-F207-2BC9-7582-BF9B4C0367E2">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UUID_NOTIFICACION" id="01AD2FC6-AAC6-B804-16C3-CDA97F8244CD">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MENSAJE" id="2008A686-74FC-6E5A-81B1-1A8BDAE92B78">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UUID_USUARIO" id="5269CCB8-C516-7C9D-06DB-B565BFA9C6FA">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHANOTIFICACION" id="5A522A83-08A7-BCDB-7C26-A28DE084F027">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UUID_GASTO" id="7D34CD43-7DD3-98A2-D225-C0B97D7C0743">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UUID_USUARIO6" id="27FFF8A3-0405-31E8-41FC-8E0B9344C8B7">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UUID_GASTO1" id="A7FA1936-A067-EF28-58F1-768C76CE7E4C">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBNOTIFICACIONES_PK" id="CB98BA54-DB9C-50C2-0D4F-0A5E935DAA2C">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>B5AF852E-B7F5-5E09-3790-342E0E513436</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<indexSegment>B5AF852E-B7F5-5E09-3790-342E0E513436</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

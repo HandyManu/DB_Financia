@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="TBINGRESOS" directorySegmentName="seg_0" id="56072EA0-D729-FF7F-AC57-AE12F6B977E6">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1EA4C236-A1CD-60F5-B2B9-E666A8DE2F07</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="UUID_CLASIFICACION" id="00C7F514-2E53-BEBF-FBB2-31EA430E1FC1">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MONTOINGRESO" id="153EF3CC-C662-2E98-034B-BDF95F4A520A">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHAINGRESO" id="3C1C0317-6591-3766-A761-44A69A9B8490">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UUID_USUARIO" id="49FD056D-E743-7695-0C2C-EE5C53ECAD65">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="UUID_INGRESO" id="6F905492-CD92-9F5E-A390-2A9D4B64D8F1">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TIPOGASTOINGRESO" id="AFE4DFE1-5E6F-0808-CFE7-736052F736B8">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UUID_CLASIFICACION1" id="63BF4E06-F013-D305-AA25-95BC80021A1A">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_ID_TIPOGASTOINGRESO1" id="C6BC11B8-F064-FF5E-EE7B-9E98DD2E1100">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_UUID_USUARIO1" id="FA58478B-C84C-89E2-434C-93B7A2F55802">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBINGRESOS_PK" id="4BC9C875-1B88-3A53-6BC0-435CCFAA8D60">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<schemaObject>9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9</schemaObject>
+<segment>B5AF852E-B7F5-5E09-3790-342E0E513436</segment>
+<tableSpace>C6F079FC-4B26-D48E-EE39-17F438ADB738</tableSpace>
+<indexSegment>B5AF852E-B7F5-5E09-3790-342E0E513436</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

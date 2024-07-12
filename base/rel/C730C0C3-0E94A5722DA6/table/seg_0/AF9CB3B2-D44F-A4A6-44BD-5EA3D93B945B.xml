@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF9CB3B2-D44F-A4A6-44BD-5EA3D93B945B" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBAHORROS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBAHORROS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UUID_AHORRO" id="7733E35B-9F08-C940-EC92-970C06D88290">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBAHORROS</sourceObjSchema>
+<sourceObjName>UUID_AHORRO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UUID_USUARIO" id="A64BF3EF-5093-B56C-DD6A-5211F75C1E89">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBAHORROS</sourceObjSchema>
+<sourceObjName>UUID_USUARIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54566101-BD41-CFDE-8F63-5B5AF68C2979" referredColumn="C00EB39B-6521-ED32-2D3B-1102DE43B9A4"/>
+</associations>
+</Column>
+<Column name="MONTOAHORRO" id="91999665-BE92-A9FC-40CF-F26E3FB30A6F">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBAHORROS</sourceObjSchema>
+<sourceObjName>MONTOAHORRO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<constraintName>CHK_MONTOINGRESO_NON_NEGATIVE1</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="montoAhorro &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="montoAhorro &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAAHORRO" id="EBBB08D4-6BB4-DBD1-EDE0-8E2EDBB01E92">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBAHORROS</sourceObjSchema>
+<sourceObjName>FECHAAHORRO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="105A35C1-ED39-CD1A-730D-1FE65A765BE9" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBAHORROS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008845</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7733E35B-9F08-C940-EC92-970C06D88290"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCB03B70-18EB-7E28-FC92-1DFC95BBC1D7" name="FK_UUID_USUARIO_2">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A64BF3EF-5093-B56C-DD6A-5211F75C1E89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

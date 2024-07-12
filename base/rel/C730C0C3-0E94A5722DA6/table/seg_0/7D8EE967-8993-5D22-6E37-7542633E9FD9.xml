@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D8EE967-8993-5D22-6E37-7542633E9FD9" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="FUENTEGASTO">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>FUENTEGASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UUID_FUENTEGASTO" id="8FD5F5A1-EDA0-7B60-5A5E-3B1C90A2434E">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>FUENTEGASTO</sourceObjSchema>
+<sourceObjName>UUID_FUENTEGASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBREFUENTEGASTO" id="F817B17B-3111-B4FD-231F-ED4853E79A62">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>FUENTEGASTO</sourceObjSchema>
+<sourceObjName>NOMBREFUENTEGASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F9DB2D0-D982-899E-EA9D-02BC589CF0D5" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="FUENTEGASTO_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008897</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FD5F5A1-EDA0-7B60-5A5E-3B1C90A2434E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34B55BDB-BFD1-13B9-D496-4C522637860D" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="FUENTEGASTO_NOMBREFUENTEGASTO_UN">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008898</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F817B17B-3111-B4FD-231F-ED4853E79A62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

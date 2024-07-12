@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDCABD1A-B201-B88D-8718-BDE1A1E26620" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_PROVEEDOR">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TB_PROVEEDOR</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROVEEDOR" id="52462004-2493-EA98-8FDF-54AB616977AB">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_PROVEEDOR</sourceObjSchema>
+<sourceObjName>ID_PROVEEDOR</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="0CBC1E5C-8737-84B8-E904-9DF342E52585">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_PROVEEDOR</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="90A0AFE1-0B35-8397-746B-2EB11A1661AE">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_PROVEEDOR</sourceObjSchema>
+<sourceObjName>APELLIDO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="EE063684-3E90-EC60-D90A-1EAC639A735D">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_PROVEEDOR</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PROVINCIA" id="29BC1ACC-BADB-D601-F7B6-6EDA80EF2684">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_PROVEEDOR</sourceObjSchema>
+<sourceObjName>PROVINCIA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="BA2D4C7F-A482-59DF-D39A-9ACF57AD00F8">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_PROVEEDOR</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUCTO" id="F17941A9-E155-43B4-0A93-B41A50823DE8">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_PROVEEDOR</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD945BEE-4942-17CB-8908-078265C36271" referredColumn="B1661167-2DD7-1B1E-9CA6-04410B254EB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F99618A1-AA98-BE78-DE68-15AD6FF3E6AB" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_PROVEEDOR_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008485</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52462004-2493-EA98-8FDF-54AB616977AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="83C1E2DF-7A19-86CA-C297-BD72043EA6D5" name="FK_PRODUCTO1">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F17941A9-E155-43B4-0A93-B41A50823DE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

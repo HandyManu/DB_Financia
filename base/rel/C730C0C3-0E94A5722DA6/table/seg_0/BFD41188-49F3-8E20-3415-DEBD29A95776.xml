@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFD41188-49F3-8E20-3415-DEBD29A95776" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBRECURSOSEDUCATIVOS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBRECURSOSEDUCATIVOS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UUID_RECURSO" id="5874907A-930D-05B4-55A8-A737A7E8B2E4">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBRECURSOSEDUCATIVOS</sourceObjSchema>
+<sourceObjName>UUID_RECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_TIPORECURSO" id="D543F7BE-1E52-2E36-4F5D-958DE5CA2A21">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBRECURSOSEDUCATIVOS</sourceObjSchema>
+<sourceObjName>ID_TIPORECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7625A5CC-740D-C75F-5D78-ADFC4B911D4F" referredColumn="A70DE5DC-1299-09D6-9BB0-501139F2F08B"/>
+</associations>
+</Column>
+<Column name="TITULORECURSO" id="B4DD9023-A31C-62F0-C294-7C29C4373F32">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBRECURSOSEDUCATIVOS</sourceObjSchema>
+<sourceObjName>TITULORECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCIONRECURSO" id="BFE4FEC6-E480-46CD-065E-E8DD3DCDC67B">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBRECURSOSEDUCATIVOS</sourceObjSchema>
+<sourceObjName>DESCRIPCIONRECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="URLRECURSO" id="9CB365A3-2DF0-1BEB-6F19-BE0E930D173B">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBRECURSOSEDUCATIVOS</sourceObjSchema>
+<sourceObjName>URLRECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 BYTE</dataTypeSize>
+<ownDataTypeParameters>250 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MINIATURARECURSO" id="A09322DA-235C-8A79-EEFC-858879F5762C">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBRECURSOSEDUCATIVOS</sourceObjSchema>
+<sourceObjName>MINIATURARECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1087F9E7-4F35-3286-727F-50F058195A49" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBRECURSOSEDUCATIVOS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008869</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5874907A-930D-05B4-55A8-A737A7E8B2E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F74A5A01-0D4B-D96F-F48E-ACDC1B222304" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBRECURSOSEDUCATIVOS_ID_TIPORECURSO_UN">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008870</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D543F7BE-1E52-2E36-4F5D-958DE5CA2A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65EF855E-F5E5-BBAE-209C-A310A0A641F0" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBRECURSOSEDUCATIVOS_TITULORECURSO_UN">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008871</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B4DD9023-A31C-62F0-C294-7C29C4373F32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2706745-AB3C-E3DE-C89B-4C4742FA511F" name="FK_UUID_TIPORECURSO">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D543F7BE-1E52-2E36-4F5D-958DE5CA2A21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

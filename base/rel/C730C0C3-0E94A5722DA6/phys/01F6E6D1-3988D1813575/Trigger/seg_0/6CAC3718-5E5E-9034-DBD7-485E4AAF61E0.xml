@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TR_ATUALIZARPRECIO" directorySegmentName="seg_0" id="6CAC3718-5E5E-9034-DBD7-485E4AAF61E0">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TR_ATUALIZARPRECIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<actions>UPDATE</actions>
+<body><![CDATA[BEGIN 
+INSERT INTO TB_ControlLib values(USER, sysdate, :new.codigo, :old.Precio, :new.Precio);
+end TR_atualizarPrecio;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<columns>E6B21C89-4B63-2F8B-7C56-602EB6B709C0</columns>
+<owner>0DB05F87-F3D9-8AA8-C66A-7ECFD75C21C3</owner>
+<table>EEB65264-5FFD-061C-6CA8-4C544FA9FB51</table>
+</TriggerOraclev10g>

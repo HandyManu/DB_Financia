@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6426DE48-59C6-0DEE-1C91-7FBB4B4415BB" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBTIPOCLASIFICACION">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBTIPOCLASIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPOCLASIFICACION" id="7B512A8B-3258-301C-895B-BF8464BC39FF">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBTIPOCLASIFICACION</sourceObjSchema>
+<sourceObjName>ID_TIPOCLASIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NOMBRETIPOCLASIFICACION" id="9541AAF0-C61E-D9A3-2727-72FF8DE10F00">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBTIPOCLASIFICACION</sourceObjSchema>
+<sourceObjName>NOMBRETIPOCLASIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="053B2F9B-9816-9D09-9ACA-A4433C170288" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBTIPOCLASIFICACION_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008805</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B512A8B-3258-301C-895B-BF8464BC39FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86FFF035-E2CD-D5A6-F174-AE8984EF2CC2" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBTIPOCLASIFICACION_NOMBRETIPOCLASIFICACION_UN">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008806</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9541AAF0-C61E-D9A3-2727-72FF8DE10F00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

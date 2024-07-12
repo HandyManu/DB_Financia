@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF0D4519-D0AC-6EEB-A2D7-D6C9E6A20C7A" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_VENTA">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TB_VENTA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENTA" id="E4F7D4F2-8C61-2E7A-F351-3EA15E7A0567">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_VENTA</sourceObjSchema>
+<sourceObjName>ID_VENTA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="C0BDAEC7-C2B8-DFEF-2471-10495656B25F">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_VENTA</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRODUCTO" id="BE03CE7C-1AA4-9032-A66A-75ECA2A84969">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_VENTA</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A4F859D-0EA9-BB7D-EB80-E5696E65802B" referredColumn="B1661167-2DD7-1B1E-9CA6-04410B254EB3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74AB1582-5AC3-885A-D03B-ABA5B4977D1A" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_VENTA_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008487</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4F7D4F2-8C61-2E7A-F351-3EA15E7A0567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B177E1BC-5C7D-29B9-8849-50EE5814A6BF" name="FK_PRODUCTO2">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE03CE7C-1AA4-9032-A66A-75ECA2A84969"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

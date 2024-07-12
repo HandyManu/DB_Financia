@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TR_INGRESO_LIBROS" directorySegmentName="seg_0" id="D8115631-751F-63C1-D684-51C88E8FAD07">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TR_INGRESO_LIBROS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+INSERT INTO TB_ControlLib VALUES(USER,sysdate);
+END TR_INGRESO_LIBROS;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0DB05F87-F3D9-8AA8-C66A-7ECFD75C21C3</owner>
+<scope>FOR EACH STATEMENT</scope>
+<table>EEB65264-5FFD-061C-6CA8-4C544FA9FB51</table>
+</TriggerOraclev10g>

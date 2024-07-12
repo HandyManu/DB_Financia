@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="TRIGEMPLEA" directorySegmentName="seg_0" id="CBE2B5BA-CDD5-DAAC-038C-2AEFB9D7E15D">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TRIGEMPLEA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN   
+SELECT emplea.NEXTVAL INTO : NEW.empleado_id FROM DUAL;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0DB05F87-F3D9-8AA8-C66A-7ECFD75C21C3</owner>
+<table>46457FC1-A578-25F6-EE43-FBCE0E85D4DD</table>
+</TriggerOraclev10g>

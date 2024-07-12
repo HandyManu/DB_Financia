@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4E6E32BC-31E1-F728-768A-8F999295C45F" containerWithKeyObject="DF9E9494-E079-F5D7-2F23-7DBB23175CBC" localFKIndex="26369469-2D58-5CA4-DD19-2A48052E9A14" name="FK_UUID_META">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>FK_UUID_META</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<referredTableLongName>MANUEL_DEVELOPER.TBMETASFINANCIERAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9FF0BE19-76B4-40A7-EA50-F44AD43E5424</referredTableID>
+<keyObject>5ED5CF8A-3028-9157-C10A-C30A485E9679</keyObject>
+<referredKeyID>5ED5CF8A-3028-9157-C10A-C30A485E9679</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UUID_META</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

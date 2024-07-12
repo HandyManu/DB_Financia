@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5BC17C3-5F18-1B5F-E608-53093584F515" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBTIPORECURSOS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBTIPORECURSOS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TIPORECURSO" id="A70DE5DC-1299-09D6-9BB0-501139F2F08B">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBTIPORECURSOS</sourceObjSchema>
+<sourceObjName>ID_TIPORECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NOMBRETIPORECURSO" id="42BF5668-5F44-7164-798D-519394B0E590">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBTIPORECURSOS</sourceObjSchema>
+<sourceObjName>NOMBRETIPORECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="026EE2A7-8AD0-D158-5E4E-9CEEB6404646" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBTIPORECURSOS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008862</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A70DE5DC-1299-09D6-9BB0-501139F2F08B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE7425DB-E46A-FB09-CA42-80F2171CBCAC" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBTIPORECURSOS_NOMBRETIPORECURSO_UN">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008863</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42BF5668-5F44-7164-798D-519394B0E590"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

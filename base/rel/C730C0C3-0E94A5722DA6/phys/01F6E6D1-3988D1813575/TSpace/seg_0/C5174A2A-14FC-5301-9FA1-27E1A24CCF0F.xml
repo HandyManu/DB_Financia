@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="MANUEL" directorySegmentName="seg_0" id="C5174A2A-14FC-5301-9FA1-27E1A24CCF0F">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>MANUEL</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

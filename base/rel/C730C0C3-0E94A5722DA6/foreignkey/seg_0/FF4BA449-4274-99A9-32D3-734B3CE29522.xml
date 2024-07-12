@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF4BA449-4274-99A9-32D3-734B3CE29522" containerWithKeyObject="56072EA0-D729-FF7F-AC57-AE12F6B977E6" localFKIndex="63BF4E06-F013-D305-AA25-95BC80021A1A" name="FK_UUID_CLASIFICACION1">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>FK_UUID_CLASIFICACION1</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<referredTableLongName>MANUEL_DEVELOPER.TBCLASIFICACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1A99B453-700E-F4D3-BB97-FCB8486EA7FC</referredTableID>
+<keyObject>83E49E04-C297-BBA3-0283-5E386F0F9097</keyObject>
+<referredKeyID>83E49E04-C297-BBA3-0283-5E386F0F9097</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>UUID_CLASIFICACIONES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

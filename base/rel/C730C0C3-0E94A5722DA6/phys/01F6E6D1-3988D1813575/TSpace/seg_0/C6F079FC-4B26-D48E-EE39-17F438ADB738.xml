@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="C6F079FC-4B26-D48E-EE39-17F438ADB738">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

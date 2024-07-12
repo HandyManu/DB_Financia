@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7625A5CC-740D-C75F-5D78-ADFC4B911D4F" containerWithKeyObject="BFD41188-49F3-8E20-3415-DEBD29A95776" localFKIndex="C2706745-AB3C-E3DE-C89B-4C4742FA511F" name="FK_UUID_TIPORECURSO">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>FK_UUID_TIPORECURSO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<referredTableLongName>MANUEL_DEVELOPER.TBTIPORECURSOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5BC17C3-5F18-1B5F-E608-53093584F515</referredTableID>
+<keyObject>026EE2A7-8AD0-D158-5E4E-9CEEB6404646</keyObject>
+<referredKeyID>026EE2A7-8AD0-D158-5E4E-9CEEB6404646</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TIPORECURSO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

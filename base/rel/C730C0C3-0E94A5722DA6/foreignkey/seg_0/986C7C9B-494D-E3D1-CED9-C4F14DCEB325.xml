@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="986C7C9B-494D-E3D1-CED9-C4F14DCEB325" containerWithKeyObject="04A7ED10-40F4-2CFB-0D45-CE1E478CF5FD" localFKIndex="6FA782FD-27B6-EAE9-7C27-FA12351EAE65" name="FK_UUID_PRESUPUESTO">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>FK_UUID_PRESUPUESTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<referredTableLongName>MANUEL_DEVELOPER.TBPRESUPUESTOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9E2AC0B1-D001-EB85-B652-5EB9368568E6</referredTableID>
+<keyObject>3809E7FE-7B02-BD01-38D4-28AB96FC895B</keyObject>
+<referredKeyID>3809E7FE-7B02-BD01-38D4-28AB96FC895B</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>UUID_PRESUPUESTO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

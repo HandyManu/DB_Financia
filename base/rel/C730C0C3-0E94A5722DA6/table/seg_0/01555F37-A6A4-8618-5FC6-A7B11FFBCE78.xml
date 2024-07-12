@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01555F37-A6A4-8618-5FC6-A7B11FFBCE78" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_OFERTAS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TB_OFERTAS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="688FC353-D59E-31D2-E13E-EC0CC353AF79">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_OFERTAS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="PRECIO" id="785E089A-F452-3F44-717A-FA481A4D0A68">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_OFERTAS</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO" id="3392536B-C77B-CAD6-E7D3-5F16C020BDA5">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_OFERTAS</sourceObjSchema>
+<sourceObjName>USUARIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="23597BDD-3440-D1D0-EA78-AFAEFD8D2EA4">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_OFERTAS</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="935B76FE-5155-D54E-7530-412F3E560500" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_OFERTAS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008658</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="688FC353-D59E-31D2-E13E-EC0CC353AF79"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

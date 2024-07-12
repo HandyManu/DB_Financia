@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9583D643-30FB-DF1D-8711-C762666D4513" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBNOTIFICACIONES">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBNOTIFICACIONES</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UUID_NOTIFICACION" id="01AD2FC6-AAC6-B804-16C3-CDA97F8244CD">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBNOTIFICACIONES</sourceObjSchema>
+<sourceObjName>UUID_NOTIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UUID_USUARIO" id="5269CCB8-C516-7C9D-06DB-B565BFA9C6FA">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBNOTIFICACIONES</sourceObjSchema>
+<sourceObjName>UUID_USUARIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="21600C1B-909F-6BEC-59B8-8D8DB053508D" referredColumn="C00EB39B-6521-ED32-2D3B-1102DE43B9A4"/>
+</associations>
+</Column>
+<Column name="UUID_GASTO" id="7D34CD43-7DD3-98A2-D225-C0B97D7C0743">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBNOTIFICACIONES</sourceObjSchema>
+<sourceObjName>UUID_GASTO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C75B0239-CFF2-3565-1DA4-CEA2D9D73188" referredColumn="6426778A-E893-84A8-809C-ABFEB65787E6"/>
+</associations>
+</Column>
+<Column name="FECHANOTIFICACION" id="5A522A83-08A7-BCDB-7C26-A28DE084F027">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBNOTIFICACIONES</sourceObjSchema>
+<sourceObjName>FECHANOTIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORANOTIFICACION" id="00757E89-F207-2BC9-7582-BF9B4C0367E2">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBNOTIFICACIONES</sourceObjSchema>
+<sourceObjName>HORANOTIFICACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MENSAJE" id="2008A686-74FC-6E5A-81B1-1A8BDAE92B78">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBNOTIFICACIONES</sourceObjSchema>
+<sourceObjName>MENSAJE</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB98BA54-DB9C-50C2-0D4F-0A5E935DAA2C" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBNOTIFICACIONES_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008893</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01AD2FC6-AAC6-B804-16C3-CDA97F8244CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7FA1936-A067-EF28-58F1-768C76CE7E4C" name="FK_UUID_GASTO1">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D34CD43-7DD3-98A2-D225-C0B97D7C0743"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27FFF8A3-0405-31E8-41FC-8E0B9344C8B7" name="FK_UUID_USUARIO6">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5269CCB8-C516-7C9D-06DB-B565BFA9C6FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

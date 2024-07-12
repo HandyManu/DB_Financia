@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEB65264-5FFD-061C-6CA8-4C544FA9FB51" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_LIBROS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TB_LIBROS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO" id="EAFD323D-C60D-6F6D-110E-0487EC70C033">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_LIBROS</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TITULO" id="A4641054-8110-9A99-EF40-26A15B106451">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_LIBROS</sourceObjSchema>
+<sourceObjName>TITULO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AUTOR" id="13497F13-52AE-EB26-5CA2-A45FDAF2AB01">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_LIBROS</sourceObjSchema>
+<sourceObjName>AUTOR</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGOEDITORIAL" id="A6B57F77-DC06-1214-04B8-FFD2712400A4">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_LIBROS</sourceObjSchema>
+<sourceObjName>CODIGOEDITORIAL</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FDF7B2D-F1FD-B6CD-FE5A-A1E6200CA32B" referredColumn="6AC59F85-D61A-E2EE-B940-900054917F7A"/>
+</associations>
+</Column>
+<Column name="PRECIO" id="E6B21C89-4B63-2F8B-7C56-602EB6B709C0">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_LIBROS</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E644DE96-D43E-3AE8-6DAC-BDDCF18440BB" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_LIBROS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008655</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAFD323D-C60D-6F6D-110E-0487EC70C033"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9062BF3-1825-69F7-4ED2-70202AEA0F31" name="FK_ACODIGOED">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6B57F77-DC06-1214-04B8-FFD2712400A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

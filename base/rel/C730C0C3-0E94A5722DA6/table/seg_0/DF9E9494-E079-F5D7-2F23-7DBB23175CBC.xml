@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DF9E9494-E079-F5D7-2F23-7DBB23175CBC" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBASIGNACIONESAHORROS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TBASIGNACIONESAHORROS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="UUID_ASIGNACION" id="694C4796-65AB-3EC7-0E23-2CCBEF44BE84">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBASIGNACIONESAHORROS</sourceObjSchema>
+<sourceObjName>UUID_ASIGNACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="UUID_AHORRO" id="93DD7EFA-7270-B453-74C6-4A280304ACCE">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBASIGNACIONESAHORROS</sourceObjSchema>
+<sourceObjName>UUID_AHORRO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="320FF8DF-7727-9F07-464F-085352C0268F" referredColumn="7733E35B-9F08-C940-EC92-970C06D88290"/>
+</associations>
+</Column>
+<Column name="UUID_META" id="4063DC9C-9E15-DA37-CE01-246FBFF28BEF">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBASIGNACIONESAHORROS</sourceObjSchema>
+<sourceObjName>UUID_META</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E6E32BC-31E1-F728-768A-8F999295C45F" referredColumn="9B9307B3-241F-9EDB-2134-2C29E3FB2BB0"/>
+</associations>
+</Column>
+<Column name="MONTOASIGNADO" id="E1EC998A-52AF-5A82-0CC3-39DE31C25774">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBASIGNACIONESAHORROS</sourceObjSchema>
+<sourceObjName>MONTOASIGNADO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<constraintName>CHK_MONTOASIGNADO_NON_NEGATIVE</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="montoAsignado &gt;= 0"/>
+<implementationDef dbType="Oracle Database 21c" definition="montoAsignado &gt;= 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHAASIGNACION" id="7D0215C1-1B62-970A-3641-3795C5D88A08">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TBASIGNACIONESAHORROS</sourceObjSchema>
+<sourceObjName>FECHAASIGNACION</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="528C72B3-47F7-5DC7-776B-71E453B47F4D" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TBASIGNACIONESAHORROS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008885</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="694C4796-65AB-3EC7-0E23-2CCBEF44BE84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD4A2C11-E36C-A821-DEFC-B7A9C3B9C7A3" name="FK_UUID_AHORRO1">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93DD7EFA-7270-B453-74C6-4A280304ACCE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26369469-2D58-5CA4-DD19-2A48052E9A14" name="FK_UUID_META">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4063DC9C-9E15-DA37-CE01-246FBFF28BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

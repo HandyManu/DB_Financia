@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2646FBB-08CC-F485-A42F-E0FD957C87AF" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_VENTAS">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>TB_VENTAS</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VENTA" id="6CACA624-4879-F88E-455C-E98C46252AF0">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_VENTAS</sourceObjSchema>
+<sourceObjName>ID_VENTA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_LIBRO" id="FB1B089A-8529-BD29-482C-40DA41978AC0">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_VENTAS</sourceObjSchema>
+<sourceObjName>ID_LIBRO</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F069275-3DEE-393E-519D-E86DFCA913E2" referredColumn="D5D8CDBC-3681-5457-B55A-6C12EA3D847C"/>
+</associations>
+</Column>
+<Column name="FECHAVENTA" id="F9DBD463-D1C1-DAA0-968E-4362C532E81A">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_VENTAS</sourceObjSchema>
+<sourceObjName>FECHAVENTA</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CANTIDAD" id="021C5A1A-DB78-DAA8-002C-A0B098F32470">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>TB_VENTAS</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:17 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2DA9C032-AAEE-C23A-9093-C9FEA6FC31AF" schemaObject="9C9F5348-1CAD-10D8-96FE-497F4B2A0BC9" name="TB_VENTAS_PK">
+<sourceConnName>DB_Financia</sourceConnName>
+<sourceObjSchema>MANUEL_DEVELOPER</sourceObjSchema>
+<sourceObjName>SYS_C008494</sourceObjName>
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CACA624-4879-F88E-455C-E98C46252AF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C381DFB5-1F38-C5AB-020A-FCDE7F30A25E" name="FK_IDLIBRO">
+<createdBy>Estudiante</createdBy>
+<createdTime>2024-07-12 17:57:18 UTC</createdTime>
+<ownerDesignName>base</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB1B089A-8529-BD29-482C-40DA41978AC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
